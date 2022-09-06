@@ -1,4 +1,3 @@
-import { builtinModules } from 'node:module';
 import { argv } from 'node:process';
 import chalk from 'chalk';
 import randomColorGen from 'randomcolor';
