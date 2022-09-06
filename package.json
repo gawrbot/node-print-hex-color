@@ -5,6 +5,7 @@
   "repository": "https://github.com/rhea-sys/print-color-to-console.git",
   "author": "Rhea Dieberger <rdieberger@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "devDependencies": {
     "@babel/eslint-parser": "7.18.9",
     "@next/eslint-plugin-next": "12.2.5",
