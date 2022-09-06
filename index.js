@@ -1,10 +1,14 @@
+import { builtinModules } from 'node:module';
 import { argv } from 'node:process';
 import chalk from 'chalk';
 import randomColorGen from 'randomcolor';
 
 const hashString = `###############################\n###############################\n###############################\n#####                    ######\n#####       ${randomColorGen()}      ######\n#####                    ######\n###############################\n###############################\n###############################`;
 
-const genObj = {};
+const genObj = {
+  hue: '',
+  luminosity: '',
+};
 
 function input() {
   if (argv[2] === 'blue' || argv[2] === 'red' || argv[2] === 'green') {
