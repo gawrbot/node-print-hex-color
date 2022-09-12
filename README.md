@@ -1,1 +1,5 @@
-# print-color-to-console
+# Print Color Squares To The Console
+
+## What the program does
+
+-
